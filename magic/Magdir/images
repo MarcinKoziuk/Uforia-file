@@ -21,14 +21,17 @@
 >2	byte&8			8		- RLE
 >12	leshort			>0		%hd x
 >14	leshort			>0		%hd
+!:mime	image/x-targa
 1	belong&0xfff7ffff	0x00020000	Targa image data - RGB
 >2	byte&8			8		- RLE
 >12	leshort			>0		%hd x
 >14	leshort			>0		%hd
+!:mime	image/x-targa
 1	belong&0xfff7ffff	0x00030000	Targa image data - Mono
 >2	byte&8			8		- RLE
 >12	leshort			>0		%hd x
 >14	leshort			>0		%hd
+!:mime	image/x-targa
 
 # PBMPLUS images
 # The next byte following the magic is always whitespace.
