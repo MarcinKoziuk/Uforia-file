@@ -553,8 +553,6 @@ file_apprentice(struct magic_set *ms, const char *fn, int action)
 	int file_err, errs = -1;
 	size_t i;
 
-	file_reset(ms);
-
 	if ((fn = magic_getpath(fn, action)) == NULL)
 		return -1;
 
