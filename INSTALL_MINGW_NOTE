@@ -1,0 +1,5 @@
+Instead of:
+$ ./configure
+Do:
+$ lt_cv_deplibs_check_method='pass_all' ./configure
+To bypass brain-deadness of libtool on MinGW
